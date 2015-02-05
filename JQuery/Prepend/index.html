@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JQuery: Prepend</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+<h1>My To Do List</h1>
+
+	<p><input type = 'text' class = 'in' id = 'thing' placeholder = 'Enter New Item'><button id = 'btnAdd'>Add To Do List</button></p>
+
+<ul>
+<div id = 'toDo'>
+&nbsp;
+</div>
+</ul>
+
+<script>
+var btn1 = document.getElementById("btnAdd");
+
+
+btn1.addEventListener("click",function(){
+var thing = document.getElementById("thing").value;
+$("#toDo").prepend("<li>"+thing+"</li>");
+document.getElementById("thing").value = "";
+});
+
+
+</script>
+</body>
+</html>
+
+

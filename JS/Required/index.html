@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Javascript: Required Class</title>
+</head>
+
+<body>
+<form action = 'test.php' method = 'post' name = 'form1'>
+<p>First Name (* required) <input type = 'text' name = 'f_name' id = 'f_name'></p>
+
+<p>Surname (*) <input type = 'text' name = 's_name' id = 's_name'></p>
+
+</form>
+<button onClick="required.checkRequired()">Submit</button>
+
+<script src="class.required.js"></script>
+<script>
+var required = new required("form1");
+required.addRequired("f_name");
+required.addRequired("s_name");
+
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JQuery: Animation</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<style>
+div{margin-top:2em;width:200px; height:auto; background:green; border:1px solid black;height:200px;position:relative}
+</style>
+</head>
+
+<body>
+<button id = 'btnAnimate'>See Animation</button>
+
+<div id = 'content'></div>
+
+<script>
+var btn1 = document.getElementById("btnAnimate");
+var btn2 = document.getElementById("btnAnimate2");
+var animateElement = $("#content");
+
+btn1.addEventListener("click",function(){
+	animateElement.animate({width:"600px"},1000);
+	animateElement.animate({height:"600px"},1000);
+	animateElement.animate({left: "+=100px"},1000);
+	animateElement.animate({width:"200px",height:"200px",left:"+=-100px"},1000);
+	
+});
+
+
+
+</script>
+</body>
+</html>
+

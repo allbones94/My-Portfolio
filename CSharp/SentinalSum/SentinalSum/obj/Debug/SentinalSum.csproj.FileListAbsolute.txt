@@ -1,0 +1,8 @@
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\SentinalSum\SentinalSum\bin\Debug\SentinalSum.exe.config
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\SentinalSum\SentinalSum\bin\Debug\SentinalSum.exe
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\SentinalSum\SentinalSum\bin\Debug\SentinalSum.pdb
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\SentinalSum\SentinalSum\obj\Debug\SentinalSum.exe
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\SentinalSum\SentinalSum\obj\Debug\SentinalSum.pdb
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\Excercise 1a\SentinalSum\SentinalSum\bin\Debug\SentinalSum.exe.config
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\Excercise 1a\SentinalSum\SentinalSum\obj\Debug\SentinalSum.exe
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\Excercise 1a\SentinalSum\SentinalSum\obj\Debug\SentinalSum.pdb

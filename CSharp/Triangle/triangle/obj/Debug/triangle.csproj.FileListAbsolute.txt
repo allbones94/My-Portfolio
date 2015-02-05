@@ -1,0 +1,14 @@
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\triangle\triangle\bin\Debug\triangle.exe.config
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\triangle\triangle\bin\Debug\triangle.exe
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\triangle\triangle\bin\Debug\triangle.pdb
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\triangle\triangle\obj\Debug\triangle.exe
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\triangle\triangle\obj\Debug\triangle.pdb
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\Excercise 1a\triangle\triangle\bin\Debug\triangle.exe.config
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\Excercise 1a\triangle\triangle\obj\Debug\triangle.exe
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\Excercise 1a\triangle\triangle\obj\Debug\triangle.pdb
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\Excercise 1a\triangle\triangle\bin\Debug\triangle.exe
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\Excercise 1a\triangle\triangle\bin\Debug\triangle.pdb
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\Excercise 1a\triangle\triangle\obj\Debug\triangle.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\triangle\triangle\bin\Debug\triangle.exe.config
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\triangle\triangle\obj\Debug\triangle.exe
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\triangle\triangle\obj\Debug\triangle.pdb

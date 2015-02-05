@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head><title>Canvas 2: Creating a Line class</title></head>
+<body>
+
+<canvas id="myCanvas" width="800" height="600" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+
+this. canvas = document.getElementById('myCanvas');
+ctx = canvas.getContext("2d");
+
+
+function Line(params){
+this.x1 = pick(params.x1,0);
+this.y1 = pick(params.y1,0);
+this.x2 = pick(params.x2,100);
+this.y2 = pick(params.y2,100);
+this.context = params.context;
+this.stroke_color = pick(params.stroke_color,"#000");
+this.stroke_width = pick(params.stroke_width,1);
+
+this.draw = function(){
+this.context.moveTo(this.x1,this.y1);
+this.context.lineTo(this.x2,this.y2);
+this.context.strokeStyle = this.stroke_color;
+this.context.lineWidth = this.stroke_width;
+this.context.stroke();
+}
+
+
+}
+
+
+
+function pick(a,b){
+if (typeof a !=='undefined'){
+return a;
+}else{
+return b;
+}
+}
+window.onload = function(){
+
+this. Line1 = new Line({context:ctx,stroke_color:"#ff0000",stroke_width:2,x1:100,y1:200,x2:600,y2:250});
+Line1.draw();
+
+}
+</script> 
+
+</body>
+</html>

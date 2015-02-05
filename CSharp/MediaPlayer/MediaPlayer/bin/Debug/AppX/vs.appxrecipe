@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>INVATE-PC</Machine>
+    <WindowsUser>james_000</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>ED2A04BA4006B2F2E5547E1A64893EC49B00F6454F691D45BBF82642C2EA4E2B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>393cc455-3551-4e25-93a7-575684fd5e64_1.0.0.0_neutral__7zz355n6bzrp4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>393cc455-3551-4e25-93a7-575684fd5e64_7zz355n6bzrp4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>393cc455-3551-4e25-93a7-575684fd5e64</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=james_000</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MediaPlayer\MediaPlayer\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-12-01T19:25:50.274</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MediaPlayer\MediaPlayer\bin\Debug\MediaPlayer.exe">
+      <PackagePath>MediaPlayer.exe</PackagePath>
+      <Modified>2014-12-01T19:25:48.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MediaPlayer\MediaPlayer\bin\Debug\MediaPlayer.pdb">
+      <PackagePath>MediaPlayer.pdb</PackagePath>
+      <Modified>2014-12-01T19:25:48.397</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MediaPlayer\MediaPlayer\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T19:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MediaPlayer\MediaPlayer\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T19:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MediaPlayer\MediaPlayer\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T19:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MediaPlayer\MediaPlayer\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T19:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MediaPlayer\MediaPlayer\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2014-12-01T19:23:55.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MediaPlayer\MediaPlayer\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T15:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MediaPlayer\MediaPlayer\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2014-12-01T19:25:28.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MediaPlayer\MediaPlayer\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-12-01T19:25:49.154</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

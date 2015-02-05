@@ -1,0 +1,12 @@
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\Excercise 1b\Form1\Form1\bin\Debug\Form1.exe.config
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\Excercise 1b\Form1\Form1\obj\Debug\Form1.csprojResolveAssemblyReference.cache
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\Excercise 1b\Form1\Form1\obj\Debug\Form1.Form1.resources
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\Excercise 1b\Form1\Form1\obj\Debug\Form1.Properties.Resources.resources
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\Excercise 1b\Form1\Form1\obj\Debug\Form1.csproj.GenerateResource.Cache
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\Excercise 1b\Form1\Form1\bin\Debug\Form1.exe
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\Excercise 1b\Form1\Form1\bin\Debug\Form1.pdb
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\Excercise 1b\Form1\Form1\obj\Debug\Form1.exe
+C:\Users\james_000\Documents\Uni Stuff\Concurrent Network Applications\Excercise 1b\Form1\Form1\obj\Debug\Form1.pdb
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Colourpicker\Form1\bin\Debug\Form1.exe.config
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Colourpicker\Form1\obj\Debug\Form1.exe
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Colourpicker\Form1\obj\Debug\Form1.pdb

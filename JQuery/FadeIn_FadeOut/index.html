@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JQuery: FadeIn/FadeOut</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<style>
+div{margin-top:2em;width:600px; height:auto; background:green; border:1px solid black}
+</style>
+</head>
+
+<body>
+<button id = 'btnF'>Fade Toggle</button>
+<button id = 'btnF200'>Fade Toggle(2 seconds)</button>
+
+<div id = 'content'> blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah   blah blah blah  </div>
+
+<script>
+var btn1 = document.getElementById("btnF");
+var btn2 = document.getElementById("btnF200");
+
+btn1.addEventListener("click",function(){
+	$("#content").fadeToggle();
+});
+
+btn2.addEventListener("click",function(){
+	$("#content").fadeToggle(2000);
+});
+
+
+</script>
+</body>
+</html>

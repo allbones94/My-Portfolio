@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><title>DOM 2: Resize an Object</title></head>
+<style>
+#tile{height:100px;width:100px;background:red}
+</style>
+<body>
+<p>Drag to increase/decrease size</p>
+<p>Width<input type = 'range' id = 'sizeW' value = '120' min = '100' max = '600' onchange="changeDimentions()"></p>
+<p>Height<input type = 'range' id = 'sizeH' value = '120' min = '100' max = '600' onchange="changeDimentions()"></p>
+
+<div id = 'tile'>
+
+</div>
+
+<script>
+function changeDimentions(){
+var width = document.getElementById("sizeW");
+var height = document.getElementById("sizeH");
+var tile = document.getElementById("tile");
+
+tile.style.width = width.value+"px";
+tile.style.height = height.value+"px";
+}
+</script>
+</body>
+</html>

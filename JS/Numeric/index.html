@@ -1,0 +1,25 @@
+<!doctype html>
+<head><title>JS: Check Numeric</title></head>
+
+<body>
+
+<script src = 'class.NumberValidator.js' type = 'text/javascript'></script>
+
+<script>var NumCheck = new numberValidator();
+
+if(NumCheck.validate(12) === true){
+document.write("<p>"+NumCheck.number+" is a number</p>");
+}else{
+	document.write("<p>"+NumCheck.number+"12 is not a number</p>");
+}
+
+if(NumCheck.validate("blah blah blah") === true){
+	document.write("<p>"+NumCheck.number+" is a number</p>");
+}else{
+	document.write("<p>"+NumCheck.number+"12 is not a number</p>");
+}
+
+</script>
+
+</body>
+</html>

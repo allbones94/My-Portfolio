@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JS: checkLength() Class</title>
+</head>
+
+<body>
+<form action = 'test.php' method = 'post' name = 'form1'>
+<p>First Name (* required) <input type = 'text' name = 'f_name' id = 'f_name' required></p>
+
+<p>Surname (*) <input type = 'text' name = 's_name' id = 's_name' required></p>
+
+</form>
+<button onClick="cl.check()">Submit</button>
+
+<script src = 'class.Length.js'></script>
+<script>
+var fname = document.getElementById("f_name").value;
+var sname = document.getElementById("s_name").value;
+
+var cl = new checkLength(6,10);
+cl.addItem(fname);
+cl.addItem(sname);
+</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+[15-Nov-2014 10:31:11 America/Denver] PHP Notice:  Undefined variable: numbers in /home1/officie0/public_html/portfolio/Tutorials/PHP/Numeric/index.php on line 19
+[15-Nov-2014 10:31:11 America/Denver] PHP Fatal error:  Call to a member function isPassed() on a non-object in /home1/officie0/public_html/portfolio/Tutorials/PHP/Numeric/index.php on line 19
+[15-Nov-2014 10:32:02 America/Denver] PHP Notice:  Undefined variable: numbers in /home1/officie0/public_html/portfolio/Tutorials/PHP/Numeric/index.php on line 19
+[15-Nov-2014 10:32:02 America/Denver] PHP Fatal error:  Call to a member function isPassed() on a non-object in /home1/officie0/public_html/portfolio/Tutorials/PHP/Numeric/index.php on line 19

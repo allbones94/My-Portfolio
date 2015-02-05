@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head><title>Misc 1: Creating a Teacher Lines Class</title></head>
+<style>
+#tile{height:100px;width:100px;background:red}
+</style>
+<body>
+<p>Type message and enter the amount of times you want that line to be displayed</p>
+<p>Message<input type = 'text' id = 'message'></p>
+<p>Number of Lines<input type = 'range' id = 'lines' value = '1' min = '1' max = '100'></p>
+<button onclick='CreateLines()'>Generate</button>
+
+<div id = 'outLines'>&nbsp;</div>
+<script>
+
+function CreateLines(){
+var m = document.getElementById("message");
+var nol = document.getElementById("lines");
+
+output1 = new Teacher_lines({message:m.value,lines:nol.value});
+}
+function Teacher_lines(params){
+this.m = params.message;
+this.nol = params.lines;
+this.outputting = "";
+var counter = 0;
+
+while(counter < this.nol){
+this.outputting += "<p>"+this.m+"</p>";
+counter++;
+}
+
+document.getElementById("outLines").innerHTML = this.outputting;
+
+}
+</script>
+</body>
+</html>

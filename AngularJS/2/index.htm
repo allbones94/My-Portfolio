@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+<title>Angular 2: Get Form Values</title>
+</head>
+
+<body>
+<div ng-app="" ng-controller="formController">
+  <form novalidate>
+    First Name:<br>
+    <input type="text" ng-model="user.firstName"><br>
+    Last Name:<br>
+    <input type="text" ng-model="user.lastName">
+    <br><br>
+	<input type="radio" name = 'test' ng-model="user.age" value = '0-20'>0-20
+	<input type="radio" name = 'test' ng-model="user.age" value = '21-40'>21-40
+	<input type="radio" name = 'test' ng-model="user.age" value = '41-60'>41-60
+    
+  </form>
+  <p>form values = {{user }}</p>
+  
+  <button onclick="alert('$scope.user.age')">Alert Age</button>
+</div>
+
+<script>
+function formController ($scope) {
+    $scope.master = {lastName:"Doe"};
+    
+}
+</script>
+
+</body>
+</html>

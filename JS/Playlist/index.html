@@ -1,0 +1,23 @@
+<!doctype html>
+<head>
+<title>Playlist Class</title>
+</head>
+<body>
+<div id = 'mplayer'>
+Please wait for video to load
+</div>
+
+<div id = 'playlist_queue'>&nbsp;</div>
+</body>
+<script src = 'playlist.js'></script>
+<script>
+var playlist = new Playlist({items:[
+['Blur - Parklife','Songs/Parklife.mp4'],
+['Blur - Song 2','Songs/Song_2.mp4'],
+['Blur - Countryhouse','Songs/Country_House.mp4']
+
+],playlist_output:'playlist_queue',video_src:'src_mp4',video_area:'mplayer'});
+
+playlist.init();
+</script>
+</html>

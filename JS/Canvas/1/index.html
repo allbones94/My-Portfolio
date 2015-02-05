@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head><title>Canvas 1: Creating a Circle class</title></head>
+<body>
+
+<canvas id="myCanvas" width="800" height="600" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+
+this. canvas = document.getElementById('myCanvas');
+ctx = canvas.getContext("2d");
+
+function Circle(params){
+
+this.x = pick(params.x,20);
+this.y = pick(params.y,20);
+this.radius = pick(params.radius,20);
+this.stroke_color = pick(params.stroke_color,"#000");
+this.stroke_width = pick(params.stroke_width,1);
+this.context = params.context;
+
+
+this.draw = function(){
+this.context.beginPath();
+this.context.arc(this.x,this.y,this.radius,0,2*Math.PI);
+this.context.strokeStyle = this.stroke_color;
+this.context.lineWidth = this.stroke_width;
+this.context.stroke();
+}
+
+
+}
+
+
+function pick(a,b){
+if (typeof a !=='undefined'){
+return a;
+}else{
+return b;
+}
+}
+window.onload = function(){
+
+this. Circle1 = new Circle({context:ctx,fill:"blue",stroke_color:"red",stroke_width:5,x:100,y:75,radius:65});
+Circle1.draw();
+
+}
+</script> 
+
+
+</body>
+</html>

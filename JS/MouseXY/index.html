@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head><title>Detect X and Y co-ordinates</title></head>
+<style>
+#menu{position:absolute;height:100px;width:100px;background:red}
+</style>
+<body>
+<div id ='test'>Hi</div>
+<div id = 'menu'>I Am Following You</div>
+<script>
+function printMousePos(e) {
+    var cursorX;
+    var cursorY;
+	var menu = document.getElementById("menu");
+	
+	cursorX = e.pageX+"px";
+    cursorY = e.pageY+"px";
+	
+	menu.style.position="absolute";menu.style.left = cursorX;
+	menu.style.top = cursorY;
+    document.getElementById('test').innerHTML = "mouse x: " + cursorX + " <br/>mouse  y: " + cursorY;
+}
+
+window.onmousemove= printMousePos;
+
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS: Responsive Design</title>
+</head>
+<style>
+.section1,.section2,.section3{height:auto;float:left}
+.section1,.section2{width:50%;}
+.section1{background:red}
+.section2{background:blue}
+.section3{width:100%;background:green;}
+
+@media screen and (max-width:800px){
+.section1,.section2{width:100%}	
+}
+</style>
+<body>
+<section class="section1">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus ipsum vel ligula maximus, eu elementum nunc sodales. Vivamus ultrices et tellus nec molestie. Nullam a porttitor neque. Nunc imperdiet condimentum sem et sollicitudin. Nunc tempus turpis vel eros pharetra sagittis. Nulla eu turpis congue neque dapibus tincidunt sit amet ullamcorper neque. In malesuada eros eu felis pretium feugiat.
+</section>
+<section class ="section2">
+Vestibulum blandit placerat elementum. Nulla erat purus, vulputate commodo venenatis vel, vestibulum vel ligula. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce ut bibendum diam, ac facilisis odio. Maecenas bibendum tellus enim, eu tempus arcu iaculis ac. Nullam at dolor faucibus, efficitur ante vel, laoreet magna. 
+</section>
+<section class="section3">Phasellus varius ligula sit amet justo convallis, in molestie urna mattis. Sed vel varius ligula. Fusce eget nunc condimentum felis auctor gravida. Sed sit amet iaculis enim. Donec quis pharetra tortor, tincidunt lobortis felis. Maecenas eu magna risus. Nullam vulputate sed nisl placerat porta. Aliquam rutrum ligula est, id facilisis elit ultrices nec. Mauris ultrices ante suscipit, malesuada libero vel, condimentum dui. Suspendisse potenti. </section>
+</body>
+</html>

@@ -1,0 +1,6 @@
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Hello World\Hello World\bin\Debug\Hello World.exe.config
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Hello World\Hello World\bin\Debug\Hello World.exe
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Hello World\Hello World\bin\Debug\Hello World.pdb
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Hello World\Hello World\obj\Debug\Hello World.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Hello World\Hello World\obj\Debug\Hello World.exe
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Hello World\Hello World\obj\Debug\Hello World.pdb

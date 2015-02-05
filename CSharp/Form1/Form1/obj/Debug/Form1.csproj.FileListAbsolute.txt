@@ -1,0 +1,9 @@
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Form1\Form1\bin\Debug\Form1.exe.config
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Form1\Form1\obj\Debug\Form1.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Form1\Form1\obj\Debug\Form1.Properties.Resources.resources
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Form1\Form1\obj\Debug\Form1.csproj.GenerateResource.Cache
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Form1\Form1\bin\Debug\Form1.exe
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Form1\Form1\bin\Debug\Form1.pdb
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Form1\Form1\obj\Debug\Form1.exe
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Form1\Form1\obj\Debug\Form1.pdb
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Form1\Form1\obj\Debug\Form2.resources

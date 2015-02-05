@@ -1,0 +1,9 @@
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Moveable\Moveable\bin\Debug\Moveable.exe.config
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Moveable\Moveable\bin\Debug\Moveable.exe
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Moveable\Moveable\bin\Debug\Moveable.pdb
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Moveable\Moveable\obj\Debug\Moveable.Form1.resources
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Moveable\Moveable\obj\Debug\Moveable.Properties.Resources.resources
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Moveable\Moveable\obj\Debug\Moveable.csproj.GenerateResource.Cache
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Moveable\Moveable\obj\Debug\Moveable.exe
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Moveable\Moveable\obj\Debug\Moveable.pdb
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\Moveable\Moveable\obj\Debug\Moveable.csprojResolveAssemblyReference.cache

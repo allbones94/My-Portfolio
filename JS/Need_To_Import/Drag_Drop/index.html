@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Drag and Drop</title>
+		<style>
+	#dragMe{width:150px;height:150px;position:absolute;left:0px;top:0px;background:red}
+	</style>
+	</head>
+	
+	<body>
+		
+		<div id="dragMe">&nbsp;</div>
+
+		<script src="drag_drop.js"></script>
+		<script>
+			var DDobj = new dragDrop({id:"dragMe"});
+			
+			document.addEventListener("mousedown",function(e){
+			
+			var mouseX = e.pageX;
+			var mouseY = e.pageY;
+			console.log("X :"+mouseX+" Y :"+mouseY);
+			
+			DDobj.hitDetection(mouseX,mouseY);
+		
+			},false)
+			
+			
+			
+			
+		</script>
+	</body>
+</html>

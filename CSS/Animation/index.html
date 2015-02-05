@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS: Animations</title>
+</head>
+<style>
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    -webkit-animation: moveObject 5s; 
+	-webkit-animation-iteration-count: infinite;
+    animation: moveObject 5s;
+}
+
+
+@-webkit-keyframes moveObject {
+    0%   {background:red; left:0px; top:0px;}
+    25%  {background:blue; left:200px; width:500px; top:0px;}
+    50%  {background:yellow; left:200px; width:100px; height:500px; top:200px;}
+    75%  {background:green; left:0px; width:500px; height:500px; top:200px;}
+    100% {background:red; left:0px; width:100px; height:100px; top:0px;}
+}
+
+
+@keyframes moveObject {
+    0%   {background:red; left:0px; top:0px;}
+    25%  {background:blue; left:200px; width:500px; top:0px;}
+    50%  {background:yellow; left:200px; width:100px; height:500px; top:200px;}
+    75%  {background:green; left:0px; width:500px; height:500px; top:200px;}
+    100% {background:red; left:0px; width:100px; height:100px; top:0px;}
+}
+
+</style>
+<body>
+<div id = 'myObject'>
+&nbsp;
+</div>
+</body>
+</html>

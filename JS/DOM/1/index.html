@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head><title>DOM 1: Colourpicker</title></head>
+<style>
+#color-tile{height:3em;width:3em;background:red}
+</style>
+<body>
+<p>R <input type = 'range' id = 'color1' value = '120' min = '0' max = '255' onchange="changeColor()"></p>
+<p>G <input type = 'range' id = 'color2' value = '120' min = '0' max = '255' onchange="changeColor()"></></p>
+<p>B <input type = 'range' id = 'color3' value = '120' min = '0' max = '255' onchange="changeColor()"></></p>
+
+<div id = 'color-tile'>
+
+</div>
+
+<script>
+function changeColor(){
+var c1 = document.getElementById("color1");
+var c2 = document.getElementById("color2");
+var c3 = document.getElementById("color3");
+var tile = document.getElementById("color-tile");
+
+tile.style.background = "rgb("+c1.value+","+c2.value+","+c3.value+")";
+
+}
+</script>
+</body>
+</html>

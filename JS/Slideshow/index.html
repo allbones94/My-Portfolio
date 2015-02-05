@@ -1,0 +1,23 @@
+<!doctype html>
+
+<head>
+<title>JS: Slideshow Class</title>
+</head>
+
+<body>
+<img src = '' id = 'slideshow' alt = 'wait for image to load'>
+<button id = 'btnPrev' onclick = "slideShow.slideLeft()">Previous</button>
+<button id = 'btnNext' onclick = "slideShow.slideRight()">Next Image</button>
+
+<script src = 'class.Slideshow.js'></script>
+<script>
+var btnNext = document.getElementById("btnNext");
+var btnPrev = document.getElementById("btnPrev");
+var slideShow = new SS({images: ['lion.jpg','elephant.jpg','hippo.jpg','lion.jpg'],SSoutput:"slideshow",imagePath:"",nextBtn:"btnNext",prevBtn:"btnPrev"});
+
+
+
+</script>
+
+</body>
+</html>

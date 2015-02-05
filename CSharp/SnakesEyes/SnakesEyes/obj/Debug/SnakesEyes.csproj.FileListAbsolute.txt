@@ -1,0 +1,5 @@
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\SnakesEyes\SnakesEyes\bin\Debug\SnakesEyes.exe.config
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\SnakesEyes\SnakesEyes\bin\Debug\SnakesEyes.exe
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\SnakesEyes\SnakesEyes\bin\Debug\SnakesEyes.pdb
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\SnakesEyes\SnakesEyes\obj\Debug\SnakesEyes.exe
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\SnakesEyes\SnakesEyes\obj\Debug\SnakesEyes.pdb

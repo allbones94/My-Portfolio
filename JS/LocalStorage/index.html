@@ -1,0 +1,13 @@
+<!doctype html>
+<title>JS: localstorage</title>
+<body>
+<script>
+if(!localStorage.getItem("name")){
+	var user = prompt("Type in your name");
+	localStorage.setItem("name",user);
+}else{
+	document.write("Welcome back, "+localStorage.getItem("name"));
+}
+</script>
+</body>
+</html>

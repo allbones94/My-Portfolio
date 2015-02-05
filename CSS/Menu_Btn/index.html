@@ -1,0 +1,46 @@
+<!doctype html>
+<head>
+	<title>CSS: Menu Btn (Pure CSS)</title>
+</head>
+<style>
+
+
+#menu-btn-area:hover > #menu-btn-icon span{
+	background:blue;
+}
+
+#menu-btn-area:hover > #menu-btn-text{
+	color:blue;
+}
+
+#menu-btn-icon-line{
+	display:block;
+	background:red;
+	width:1.8em;
+	height:0.25em;
+	margin-bottom:0.3em
+}
+
+
+#menu-btn-text{
+	color:red;
+	position:relative;
+	top:-1.5em;
+	left:2.5em
+}
+	
+	
+</style>
+<body>
+	<span id = 'menu-btn-area'>
+		<span id = 'menu-btn-icon'>
+			<span id = 'menu-btn-icon-line'></span>
+			<span id = 'menu-btn-icon-line'></span>
+			<span id = 'menu-btn-icon-line'></span>
+		</span>
+		<span id = 'menu-btn-text'>
+			MENU
+		</span>
+	</span>
+</body>
+</html>

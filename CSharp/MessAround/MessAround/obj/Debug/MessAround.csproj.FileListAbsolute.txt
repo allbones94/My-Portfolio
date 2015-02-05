@@ -1,0 +1,9 @@
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MessAround\MessAround\bin\Debug\MessAround.exe.config
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MessAround\MessAround\bin\Debug\MessAround.exe
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MessAround\MessAround\bin\Debug\MessAround.pdb
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MessAround\MessAround\obj\Debug\MessAround.Properties.Resources.resources
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MessAround\MessAround\obj\Debug\MessAround.csproj.GenerateResource.Cache
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MessAround\MessAround\obj\Debug\MessAround.exe
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MessAround\MessAround\obj\Debug\MessAround.pdb
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MessAround\MessAround\obj\Debug\MessAround.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\JA.CO.UK\Tutorials\CSharp\MessAround\MessAround\obj\Debug\Form1.resources
